@@ -245,17 +245,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\com\crj\example\issue\MyMissionBehaviour.cs" />
     <Compile Include="src\com\crj\example\util\PropertyOper.cs" />
     <Compile Include="src\com\crj\example\configuration\GameLoadConfiguration.cs" />
     <Compile Include="src\com\crj\example\other\HealthOnKillPatch.cs" />
     <Compile Include="src\com\crj\example\MySubModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\com\crj\example\view\TextViewModel.cs" />
-    <Compile Include="src\com\crj\example\handler\KillInfoWriteHandler.cs" />
+    <Compile Include="src\com\crj\example\view\KillInfoWriteHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="0Harmony.xml" />
-    <Content Include="Modules\CRJExampleMod\GUI\Prefabs\RTSCameraShowControlHint.xml" />
+    <Content Include="Modules\CRJExampleMod\GUI\Prefabs\showControlHint.xml" />
     <Content Include="Modules\CRJExampleMod\SubModule.xml" />
   </ItemGroup>
   <ItemGroup>

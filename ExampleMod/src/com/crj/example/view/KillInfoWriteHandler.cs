@@ -5,7 +5,7 @@ using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
 
-namespace ExampleMod.Handler
+namespace ExampleMod.View
 {
     public class KillInfoWriteHandler : ViewModel
     {
