@@ -257,13 +257,13 @@
   <ItemGroup>
     <Content Include="0Harmony.xml" />
     <Content Include="Modules\CRJExampleMod\GUI\Prefabs\showControlHint.xml" />
+    <Content Include="Modules\CRJExampleMod\ModuleData\module_strings.xml" />
     <Content Include="Modules\CRJExampleMod\SubModule.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Modules\CRJExampleMod\AssetPackages\" />
     <Folder Include="Modules\CRJExampleMod\Atmospheres\Interpolated\" />
     <Folder Include="Modules\CRJExampleMod\GUI\Brushes\" />
-    <Folder Include="Modules\CRJExampleMod\ModuleData\" />
     <Folder Include="Modules\CRJExampleMod\SceneObj\" />
   </ItemGroup>
   <ItemGroup>

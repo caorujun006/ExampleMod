@@ -44,9 +44,12 @@ namespace ExampleMod.View
         public void SetShowText(bool showHint)
         {
             killInfo.IsVisible = showHint;
-            string content = string.Format("击杀数：{0} ｜ 击晕数：{1} ｜ 爆头数：{2}", killCount, stunCount, blockCount);
             //击杀数：8 ｜ 击晕数：2 | 爆头数:1 格挡数:
-            killInfo.TextObject = new TextObject(content);
+            killInfo.TextObject = GameTexts.FindText("str_yigu_kill_format");
+            killInfo.TextObject.SetTextVariable("kill", killCount.ToString());
+            killInfo.TextObject.SetTextVariable("stun", stunCount.ToString());
+            killInfo.TextObject.SetTextVariable("block", blockCount.ToString());
+            killInfo.RefreshValues();
         }
 
         private TextObject GetHint(bool focusedOnAgent)
